@@ -1,8 +1,10 @@
-# find_walking
-A “one-size-fits-most” walking recognition method for smartphones, smartwatches, and wearable accelerometers.
+# A “one-size-fits-most” walking recognition method for smartphones, smartwatches, and wearable accelerometers.
+
+## Purpose
+
 We propose a walking recognition method for sub-second tri-axial accelerometer data, in which activity classification is based on the inherent features of walking: intensity, periodicity, and duration.
 
-Key takes:
+## Validation
 
 x Method has been validated against 20 publicly available, annotated datasets on walking activity data collected at various body locations (thigh, waist, chest, arm, wrist).
 
@@ -10,7 +12,12 @@ x We demonstrated that our method can estimate walking periods with high sensiti
 
 x We also assessed the method’s algorithmic fairness to demographic and anthropometric variables and measurement contexts (body location, environment).
 
+## How to use
+1. Download both files (find_walking.m, find_continuous_dominant_peaks.m) to your workstation and add them to your MATLAB search path.
+2. Transform your raw accelerometry data to vector magnitude.
+3. Run find_walking.m as described in function description.
 
-For further read, please see:
+
+## Reference
 
 Straczkiewicz M., Huang E., Onnela J.-P., A “one-size-fits-most” walking recognition method for smartphones, smartwatches, and wearable accelerometers, npj Digital Medicine, 2023.
