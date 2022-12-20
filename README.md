@@ -12,6 +12,7 @@ Authors:
 Straczkiewicz Marcin, PhD & Onnela Jukka-Pekka, PhD
 Harvard T.H. Chan School of Public Health
 
+
 For further read, please see:
 
 Straczkiewicz M., Huang E., Onnela J.-P., A “one-size-fits-most” walking recognition method for smartphones, smartwatches, and wearable accelerometers, npj Digital Medicine, 2023.
