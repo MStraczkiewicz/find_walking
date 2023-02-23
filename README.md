@@ -20,4 +20,5 @@ x We also assessed the method’s algorithmic fairness to demographic and anthro
 
 ## Reference
 
-Straczkiewicz M., Huang E., Onnela J.-P., A “one-size-fits-most” walking recognition method for smartphones, smartwatches, and wearable accelerometers, npj Digital Medicine, In Press.
+Straczkiewicz, M., Huang, E.J. & Onnela, JP. A “one-size-fits-most” walking recognition method for smartphones, smartwatches, and wearable accelerometers. npj Digit. Med. 6, 29 (2023). https://doi.org/10.1038/s41746-022-00745-z
+Open Access: https://rdcu.be/c6dGV 
