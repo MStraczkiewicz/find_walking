@@ -12,8 +12,6 @@ function [wi, steps, cad] = find_walking(vm, fs, min_amp, T, delta, ...
 % vm ~      vector magnitude of raw acceleration signal
 % fs ~      sampling frequency of data collection (in Hz, e.g., 10)
 % min_amp ~ amplitude threshold (in g (gravitational units), e.g., 0.2)
-% fw ~      step frequency range (in Hz or steps per second, e.g., [1.4,
-%           2.3])
 % T  ~      minimum walking duration (in seconds, e.g., 3)
 % delta ~   maximum difference between consecutive peaks (in multiplication
 %           of 0.05Hz, e.g., 2)
@@ -21,6 +19,8 @@ function [wi, steps, cad] = find_walking(vm, fs, min_amp, T, delta, ...
 %           frequency range (e.g., 0.6)
 % beta ~    maximum ratio between dominant peak above and within step
 %           frequency range (e.g., 2.5)
+% step_freq ~ step frequency range (in Hz or steps per second, e.g., [1.4,
+%           2.3])
 %
 % Outputs:
 % wi ~      walking indication
